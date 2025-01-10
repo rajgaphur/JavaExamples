@@ -1,0 +1,42 @@
+{
+    "Output": [
+        {
+            "SignalGSM": "%signalgsm%",
+            "SignalUMTS": "%signalumts%",
+            "SignalLTE": "%signallte%",
+            "pcsSpectrumEnabled": "%pcsspectrumenabled%",
+            "awsSpectrumEnabled": "%awsspectrumenabled%",
+            "PSAPID": "%psapid%",
+            "Market": "%market%",
+            "Timezone": "%timezone%",
+            "DST_Observed": "%dst_observed%",
+            "MTA": "%mta%",
+            "PSAPEnabled": "%psapenabled%",
+            "MSC_Pool_Region": "%msc_pool_region%",
+            "MME_Pool_ID": "%mme_pool_id%",
+            "FIPS": "%fips%",
+            "MME_Pool_name": "%mme_pool_name%",
+            "County": "%county%",
+            "State": "%state%",
+            "NBIOT_S1GWID_TAC_List1": "%nbiot_s1gwid_tac_list1%",
+            "NBIOT_S1GWID_TAC_List2": "%nbiot_s1gwid_tac_list2%",
+			"NBIOT_S1GWID_TAC_List3": "%nbiot_s1gwid_tac_list3%",
+			"NBIOT_S1GWID_TAC_List4": "%nbiot_s1gwid_tac_list4%",
+			"NBIOT_S1GWID_TAC_List5": "%nbiot_s1gwid_tac_list5%",
+			"NBIOT_S1GWID_TAC_List6": "%nbiot_s1gwid_tac_list6%",
+			"NBIOT_S1GWID_TAC_List7": "%nbiot_s1gwid_tac_list7%",
+			"NBIOT_S1GWID_TAC_List8": "%nbiot_s1gwid_tac_list8%",
+            "RNC_ID_S1GW_ID_LAC_TAC_List1": "%rnc_id_s1gw_id_lac_tac_list1%",
+            "RNC_ID_S1GW_ID_LAC_TAC_List2": "%rnc_id_s1gw_id_lac_tac_list2%",
+			"RNC_ID_S1GW_ID_LAC_TAC_List3": "%rnc_id_s1gw_id_lac_tac_list3%",
+			"RNC_ID_S1GW_ID_LAC_TAC_List4": "%rnc_id_s1gw_id_lac_tac_list4%",
+			"RNC_ID_S1GW_ID_LAC_TAC_List5": "%rnc_id_s1gw_id_lac_tac_list5%",
+			"RNC_ID_S1GW_ID_LAC_TAC_List6": "%rnc_id_s1gw_id_lac_tac_list6%",
+			"RNC_ID_S1GW_ID_LAC_TAC_List7": "%rnc_id_s1gw_id_lac_tac_list7%",
+			"RNC_ID_S1GW_ID_LAC_TAC_List8": "%rnc_id_s1gw_id_lac_tac_list8%",
+            "user_fields": [
+                
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+package com.time;
+
+import java.util.Calendar;
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class ScheduleTime {
+	public static void main(String args[]) {
+//instance of the Timer class  
+		Timer timer = new Timer();
+		TimerTask task = new TimerTask() {
+//represent the time after which the task will begin to execute  
+			int i = 5;
+
+			@Override
+			public void run() {
+				if (i > 0) {
+					System.out.println(i);
+					i--;
+				} else {
+					System.out.println("Wish You Very Happy Birthday!!");
+//cancel the task once it is completed  
+					timer.cancel();
+				}
+			}
+		};
+//creating an instance of the Calendar class  
+		Calendar date = Calendar.getInstance();
+//setting the date and time on which timer will begin   
+		date.set(2023, Calendar.JULY, 28, 10, 18, 05);
+//enables the counter to count at a rate of 1 second  
+		timer.scheduleAtFixedRate(task, date.getTime(), 1000);
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"Output": [{
+		"AddressLine1": "%addressLine1%",
+		"AddressLine2": "%addressLine2%",
+		"City": "%city%",
+		"PostalCode.Base": "%postalcodebase%",
+		"StateProvince": "%stateprovince%",
+		"Status": "success",
+		"Status.Code": "0",
+		"Status.Description": "SUCCESS RESPONSET"}]
+}
